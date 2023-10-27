@@ -1,0 +1,5 @@
+package com.codeclassic.productservice.controller;
+
+public class ExpenseController {
+
+}
