@@ -1,0 +1,21 @@
+package com.contact.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.contact.entity.Contact;
+
+@Service
+public class ContactServiceImpl implements ContactService{
+	
+	//Manually Creating a list of contacts
+	List<Contact> contacts = List.of();
+	
+	@Override
+	public List<Contact> getContactsOfUser(Long userId) {
+		
+		return null;
+	}
+	
+}

@@ -1,0 +1,4 @@
+#contact service
+server.port=9002
+
+spring.application.name=contact-service

@@ -1,0 +1,4 @@
+#api gateway
+server.port=8999
+
+eureka.instance.hostname=localhost
