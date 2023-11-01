@@ -14,8 +14,8 @@ public class EmployeeServiceImpl implements EmployeeService{
 	private EmployeeRepository employeeRepository;
 	
 	@Override
-	public void addEmployee(Employee emp) {
-		employeeRepository.save(emp);
+	public Employee addEmployee(Employee emp) {
+		return employeeRepository.save(emp);
 	}
 
 	@Override
@@ -57,12 +57,6 @@ public class EmployeeServiceImpl implements EmployeeService{
 	public Employee fetchById(Long id) {
 		Employee emp = employeeRepository.findById(id).get();
 		return emp;
-	}
-
-	@Override
-	public void updateEmployee(Long id) {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override

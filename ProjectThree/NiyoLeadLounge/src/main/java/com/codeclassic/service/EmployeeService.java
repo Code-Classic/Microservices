@@ -2,13 +2,14 @@ package com.codeclassic.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.codeclassic.entity.Employee;
 
+@Service
 public interface EmployeeService {
 	
-	public void addEmployee(Employee emp);
-	
-	public void updateEmployee(Long  id);
+	public Employee addEmployee(Employee emp);
 	
 	public void removeEmployee();
 	

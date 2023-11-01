@@ -53,7 +53,7 @@ public class Employee {
     }
     
     public Employee(String firstName, String lastName, Date dateOfJoining, String emailAddress, String contactNumber,
-			Employee manager, Department department, Role role, Boolean employmentStatus) {
+			Employee manager, Department department, Role role) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -63,7 +63,6 @@ public class Employee {
 		this.manager = manager;
 		this.department = department;
 		this.role = role;
-		this.employmentStatus = employmentStatus;
 	}
 
 
